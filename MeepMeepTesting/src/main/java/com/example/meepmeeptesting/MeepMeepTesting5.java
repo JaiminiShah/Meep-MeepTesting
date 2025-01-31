@@ -18,11 +18,11 @@ public class MeepMeepTesting5 {
 
                 .splineToConstantHeading(new Vector2d(55, 55), Math.toRadians(0))
                         .waitSeconds(0.4)
-                .splineToLinearHeading(new Pose2d(35,12,0),Math.toRadians(270))
+                .splineToLinearHeading(new Pose2d(28,12,Math.toRadians(100)),Math.toRadians(270))
                                 .splineToConstantHeading(new Vector2d(38,12),Math.toRadians(0))
                                 .splineToLinearHeading(new Pose2d(55,55,0),Math.toRadians(0))
                                 .waitSeconds(.4)
-                                .splineToLinearHeading(new Pose2d(48,12,0),Math.toRadians(0))
+                                .splineToLinearHeading(new Pose2d(48,12,45),Math.toRadians(0))
                                 .splineToConstantHeading(new Vector2d(50,12),Math.toRadians(0))
                                 .splineToLinearHeading(new Pose2d(57,55,0),Math.toRadians(0))
                                 .waitSeconds(.4)
